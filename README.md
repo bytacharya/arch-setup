@@ -61,5 +61,7 @@ Here's how my setup looks:
 4. TIV is a nice terminal image viewer, combine it with fzf to preview your photos in your terminal on the go.
 
 
+<br><br>
 Do tell me if I can add anything.
+
 Btw, I use arch.
