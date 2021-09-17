@@ -59,3 +59,7 @@ Here's how my setup looks:
 2. You may use lightdm web kit as your login manager, it has many themes available.
 3. For most of issues that you face in arch, [archwiki](wiki.archlinux.org) probably has the solution. Arch has the best documentation.
 4. TIV is a nice terminal image viewer, combine it with fzf to preview your photos in your terminal on the go.
+
+
+Do tell me if I can add anything.
+Btw, I use arch.
