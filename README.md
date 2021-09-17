@@ -5,7 +5,7 @@ So I thought why not share my configuration with other users. If you want to ach
 
 
 ### Clone this repo to anywhere on your pc and follow the guide below.
-    <code> git clone https://github.com/iitmod/setup.git</code>
+    <code>$ git clone https://github.com/iitmod/setup.git</code>
 
 
 ## Here are a few things that you need to know:
