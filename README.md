@@ -55,7 +55,7 @@ Here's how my setup looks:
 ### Some other little tips
 
 1. I recommed using fzf in your daily life, it'll make your work a lot easier. Combine it with any app, it has enormous possibilities.
-   I recommend using it with ripgrep is recommended.
+   I recommend using it with ripgrep.
 2. You may use lightdm web kit as your login manager, it has many themes available.
 3. For most of issues that you face in arch, [archwiki](wiki.archlinux.org) probably has the solution. Arch has the best documentation.
 4. TIV is a nice terminal image viewer, combine it with fzf to preview your photos in your terminal on the go.
