@@ -3,14 +3,12 @@
 #
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
-#urxvt
+#spotify to 2
+assign [class="workspace 1"] 1
+#polybar
 exec_always --no-startup-id urxvt
-##picom
 exec_always --no-startup-id picom
-##polybar
 exec_always --no-startup-id bash ~/.config/polybar/launch.sh --forest
-#feh
-exec_always --no-startup-id ~/.fehbg &
 #vol keys
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
@@ -24,6 +22,8 @@ set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
 bindsym $mod+Shift+g mode "$mode_gaps"
+bindsym $mod+Shift+Print exec gnome-screenshot -i
+bindsym $mod+Shift+s exec shutdown now
 mode "$mode_gaps" {
         bindsym o      mode "$mode_gaps_outer"
         bindsym i      mode "$mode_gaps_inner"
@@ -58,9 +58,6 @@ mode "$mode_gaps_outer" {
 
 #shortcut for apps
 bindsym $mod+Shift+f exec chromium
-bindsym $mod+Shift+Print exec gnome-screenshot -i
-bindsym $mod+Shift+s exec shutdown now  #shutdown
-bindsym $mod+Shift+n exec nautilus
 
 
 
@@ -77,6 +74,8 @@ font pango:monospace 8
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
+#feh
+exec --no-startup-id ~/.fehbg &
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 default_border pixel
