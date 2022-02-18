@@ -20,7 +20,7 @@ So, if your system doesnt match as of mine, you'll have to do a bit of work arou
 
 
 Here's how my setup looks:
-[!My Arch setup](img/my_setup.png)
+[![My Arch setup](img/my_setup.png)
 
 
 
