@@ -20,7 +20,7 @@ So, if your system doesnt match as of mine, you'll have to do a bit of work arou
 
 
 Here's how my setup looks:
-[![My Arch setup](img/my_setup.png)
+[!My Arch setup](img/my_setup.png)
 
 
 
@@ -34,7 +34,7 @@ Here's how my setup looks:
    You can get the theme from [here](https://github.com/adi1090x/polybar-themes) (I use the forest theme).
    Follow the guide given in repo.
 4. My default terminal is **URxvt**, you'll have to set your "sensible terminal". Follow the official i3 guide [here](https://i3wm.org/docs/userguide.html)
-   to set your sensible terminal.
+   to set your sensible terminal. **skip this step in case you want to use URXVT as your terminal**
 5. Picom is set to autostart.
 6. My wallpaper can be found in *img/wallpaper.jpg*. This setup uses feh for setting wallpaper, it has been added to
    autostart in i3.
